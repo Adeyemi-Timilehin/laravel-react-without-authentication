@@ -1,12 +1,16 @@
 This is a laravel-react raw file without authentication(breeze) just a starter kit
-composer install 
+Run the following command to get started
+## First clone the repository
+# cd to the project directory
 
-npm install
-npm run dev
-cp .env.example .env
+# **composer install 
+
+# npm install
+# npm run dev
+# cp .env.example .env
 php artisan key:generate
 touch database/database.sqlite
-php artisan migrate
+# **php artisan migrate
 php artisan db:seed
 php artisan serve
 
